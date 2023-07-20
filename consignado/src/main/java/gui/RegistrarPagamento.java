@@ -696,8 +696,6 @@ public class RegistrarPagamento extends javax.swing.JFrame {
                     Double valorPago = Double.valueOf(campoValorPagoPeloCliente.getText());
                     validarPagamento(valorPago);
                     fecharJanela();
-//                    ClienteGUI clienteGUI = new ClienteGUI();
-//                    clienteGUI.lerTabela();
                 }
             } else {
                 JOptionPane.showMessageDialog(null, "A divida desse cliente já foi finalizada", "ALERTA", 2);
